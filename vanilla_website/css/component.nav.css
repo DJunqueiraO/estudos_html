@@ -1,0 +1,25 @@
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+    list-style: none;
+    height: 3.5em;
+    overflow-x: scroll;
+}
+
+.nav ul * {
+    overflow: visible;
+}
+
+.nav ul li a {
+    font-size: larger;
+    color: #bbb;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.nav ul li a:hover {
+    color: #fff;
+    font-weight: bold;
+}
